@@ -1,0 +1,33 @@
+1) Program to read a character and string
+-----------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    char c,str[40];
+    scanf("%c",&c);
+    scanf("%s",str);
+    printf("%c%s",c,str);
+}
+----------------------------------------------------
+OUTPUT:
+A
+Lakshmi
+ALakshmi
+*********************************************************************************************************************************************************
+2) Program to read two integers and float as input and print output
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    float c,d;
+    scanf("%d%d",&a,&b);
+    scanf("%f%f",&c,&d);
+    printf("%d %d",a+b,a-b);
+    printf("\n%.1f %.1f",c+d,c-d);
+}
+OUTPUT:
+10    4
+7.2   3.1
+14   6
+10.3   4.1
